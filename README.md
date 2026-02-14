@@ -49,7 +49,7 @@ It provides instant results through a simple and user-friendly interface.
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/LifeguardAIYUKTI
+git clone https://github.com/Shreyasiverma/techtitansYUKTI
 ```
 
 ### 2️⃣ Install dependencies
