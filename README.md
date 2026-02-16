@@ -1,70 +1,74 @@
-# 🛟 Lifeguard AI
+# Lifeguard AI: Health prediction and diagnosis system
 
 ## 📌 Overview
-Lifeguard AI is a Machine Learning-based disease prediction system that predicts possible diseases based on five user-selected symptoms. 
-The system analyzes the combination of symptoms using a trained classification model and provides quick preliminary health insights.
 
-The goal of this project is to promote early awareness and encourage users to consult medical professionals at the right time.
+**Lifeguard AI** is an intelligent, Machine Learning-driven diagnostic support system. By analyzing symptom clusters, it provides rapid disease prediction, risk stratification, and actionable next steps for clinical intervention.
 
----
-
-## 🎯 Problem Statement
-There is a need for a simple system that can analyze symptoms and provide basic guidance before the condition becomes serious.
+Our mission is to bridge the gap between "noticing a symptom" and "getting professional care" through data-driven transparency.
 
 ---
 
-## 💡 Solution
-Lifeguard AI allows users to select five symptoms and predicts the most probable disease using a trained Machine Learning model. 
-It provides instant results through a simple and user-friendly interface.
+## 🚀 Enhanced Features
+
+* **Intelligent Prediction Engine**: Analyzes 5-symptom clusters using high-accuracy ML models.
+* **Confidence Scoring**: Displays a probability percentage for each prediction to ensure transparency.
+* **Urgency & Triage**: Categorizes conditions into *Low*, *Medium*, or *High* urgency with specific action protocols.
+* **Clinical Reasoning**: Provides a breakdown of *why* the model reached its conclusion, linking symptoms to the predicted pathology.
+* **Care Navigation**:
+* **Specialist Finder**: Automatically recommends the correct type of doctor (e.g., Cardiologist for chest pain).
+* **Geo-Location Services**: Integrated mapping to find the nearest hospitals and clinics.
+* **Emergency SOS**: A one-tap system for immediate emergency service contact.
+
+
+* **Safety First**: A persistent, high-visibility Warning Banner and localized precautionary advice for every diagnosis.
 
 ---
 
-## 🚀 Features
-- Predicts disease based on 5 symptoms
-- Fast and real-time prediction
-- User-friendly interface
-- Trained Machine Learning model
-- Lightweight and easy to use
+## 🛠️ Modern Tech Stack
+
+* **Core**: Python, Scikit-learn, NumPy, Pandas.
+* **Frontend**: Streamlit (Enhanced UI with custom CSS).
+* **APIs**: Google Maps API (Hospital Search), Twilio (Emergency Alerts).
 
 ---
 
-## 🛠️ Tech Stack
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Streamlit
+## 📊 The Intelligence Workflow
+
+| Step | Process | Description |
+| --- | --- | --- |
+| **1** | **Symptom Input** | User selects 5 symptoms via an intuitive multi-select UI. |
+| **2** | **ML Inference** | The model calculates the most probable condition and a confidence score. |
+| **3** | **Risk Analysis** | The system assesses urgency and generates a "Reasoning Report". |
+| **4** | **Actionable Care** | UI displays nearby specialists, hospitals, and emergency call buttons. |
 
 ---
 
-## 📊 How It Works
-1. User selects any 5 symptoms.
-2. The system converts symptoms into numerical format.
-3. The trained ML model processes the input.
-4. The predicted disease is displayed instantly.
+## ▶️ Setup & Installation
 
----
+### 1️⃣ Clone & Navigate
 
-## ▶️ How to Run the Project
-
-### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Shreyasiverma/techtitansYUKTI
+
+
 ```
 
-### 2️⃣ Install dependencies
+### 2️⃣ Environment Setup
+
 ```bash
 pip install -r requirements.txt
+
 ```
 
-### 3️⃣ Run the application
+### 3️⃣ Launch the Hub
+
 ```bash
 streamlit run app.py
+
 ```
 
 ---
 
-## ⚠️ Disclaimer
-This project is developed for educational and hackathon purposes only. 
-It does not replace professional medical advice.
+## 🚨 Safety & Clinical Disclaimer
 
+> **CRITICAL**: Lifeguard AI is a preliminary screening tool for educational and hackathon purposes. It is not a replacement for professional medical diagnosis, advice, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
